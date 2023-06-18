@@ -1,10 +1,11 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return(
-    <div className='app'>
-      <h1>Hello World!!!</h1>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   )
 }
 
